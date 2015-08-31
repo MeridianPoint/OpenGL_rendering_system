@@ -1,5 +1,5 @@
 ========================================================================
-    CONSOLE APPLICATION : Assignment4 Project Overview
+    CONSOLE APPLICATION : OpenGL rendering System Project Overview
 ========================================================================
 
 AppWizard has created this Assignment4 application for you.
