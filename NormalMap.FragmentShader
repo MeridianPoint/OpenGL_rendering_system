@@ -1,0 +1,31 @@
+#version 120
+
+
+varying vec3 vTangent;
+
+varying vec3 vBitangent;
+
+uniform Sampler2d TextureUnit0;  //diffuse
+
+uniform Sampler2d TextureUnit1;  //specular_color
+
+uniform Sampler2d TextureUnit3; //specular_level
+
+uniform Sampler2d TextureUnit4;  //ambient occusion
+
+uniform Sampler2d TextureUnit5; //Normal Map
+
+void main(){
+
+//screen space to tangent space
+	mat3 TBN = transpose(mat3(
+        vertexTangent_cameraspace,
+        vertexBitangent_cameraspace,
+        vertexNormal_cameraspace
+    ));
+
+	LightDirection_tangentspace = TBN * LightDirection_cameraspace;
+    EyeDirection_tangentspace =  TBN * EyeDirection_cameraspace;
+
+	TextureNormal_tangentspace = normalize(texture2D( NormalTextureSampler, UV ).rgb*2.0 - 1.0);
+}

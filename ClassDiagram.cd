@@ -1,0 +1,130 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Camera" Collapsed="true">
+    <Position X="9.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BEAGIgAgQAABAGQAQBAAAYAKEACkAYAQWABEAAAAaAA=</HashCode>
+      <FileName>Camera.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="fbx_loader" Collapsed="true">
+    <Position X="13.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAYAACAAAABAgCAIIjIASAAAAAAAAAAAAAAAAJAA=</HashCode>
+      <FileName>fbx_loader.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Light" Collapsed="true">
+    <Position X="6.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAIAAAAAAACACgAAAAAgAIAQAACACAAAAAgAAIAAA=</HashCode>
+      <FileName>Light.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LightCreator" Collapsed="true">
+    <Position X="6.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIIAAAAAABAAAAAAAAAAAAAAAACAAAAAAgAAAAAAAAA=</HashCode>
+      <FileName>Light.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Mat4&lt;T&gt;" Collapsed="true">
+    <Position X="1.25" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CGABAAAgAQCAAKABBIoAgAAAAAAAEMACAGCgBQBAAAA=</HashCode>
+      <FileName>Mat4.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Vec3&lt;T&gt;" Collapsed="true">
+    <Position X="1.25" Y="5.25" Width="1.5" />
+    <NestedTypes>
+      <Typedef Name="Vec3&lt;T&gt;::VecType" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Vec3.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Typedef>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAgCAQAACAAEQIAQAEAAEAFIAIAQRhAQEAAAA=</HashCode>
+      <FileName>Vec3.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Point_Light">
+    <Position X="6.75" Y="2.5" Width="1.5" />
+    <NestedTypes>
+      <Struct Name="Point_Light::point_light" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Point_Light.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Struct>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAA=</HashCode>
+      <FileName>Point_Light.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Transformation" Collapsed="true">
+    <Position X="9.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAAAAAABAABAIAFAIAAAAAMAAAABAAAAAEAAAAAAQ=</HashCode>
+      <FileName>Transformation.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Model" Collapsed="true">
+    <Position X="11.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQCAAIAAACAAAIEEAAIAEAQAAABABAAAAAxEAFAAAAA=</HashCode>
+      <FileName>Model.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Material" Collapsed="true">
+    <Position X="13.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AOgAAAAAAAAEAAAAAAAQAAAAAAAAAAAIAAAAAACAAAA=</HashCode>
+      <FileName>Material.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Phong_Material" Collapsed="true">
+    <Position X="13.25" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABAAQAAAAAAAAAIAAAAAAAAAAAAAAAEAAIAAAACQA=</HashCode>
+      <FileName>Phong_Material.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Scene" Collapsed="true">
+    <Position X="1.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAACAAEAgAAgBAAAAIAQAAAEAQAAAAAAAAAAAA=</HashCode>
+      <FileName>Scene.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Vec2&lt;T&gt;" Collapsed="true">
+    <Position X="1.25" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAQAAAAAABAAAAARggAAAAAA=</HashCode>
+      <FileName>Vec2.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Typedef Name="Vec2f" Collapsed="true">
+    <Position X="3.25" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Vec2.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="Vec2d" Collapsed="true">
+    <Position X="1.25" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Vec2.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="Vec2i" Collapsed="true">
+    <Position X="1.25" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Vec2.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

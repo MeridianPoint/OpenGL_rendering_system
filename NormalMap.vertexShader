@@ -1,0 +1,19 @@
+#version 120
+
+varying vec3 N; //normal
+
+varying vec3 vTangent;
+
+varying vec3 vBitangent;
+
+attribute vec3 Tangent;
+
+attribute vec3 Bitangent;
+
+
+
+void main(){
+	vTangent=gl_Normal_Matrix*Tangent;
+	vBitangent=gl_Normal_Matrix*Bitangent;
+	N=gl_Normal_Matrix*gl_Normal;
+}

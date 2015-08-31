@@ -1,0 +1,53 @@
+#version 120
+
+uniform vec3 Ka;
+
+varying vec3 v;
+varying vec3 N;
+
+uniform Sampler2D TextureUnit0;  //diffusemap
+
+uniform Sampler2D TextureUnit1;  //Specularmap_color_map
+
+uniform Sampler2D TextureUnit2;  //specular_level_map
+
+uniform Sampler2D TextureUnit3;  //Normal_ map
+
+uniform Sampler2D TextureUnit4; //Anisotrophic map
+
+attribute vec3 Tangent;  //tangent
+
+attribute vec3 BiTangent;  //bitangent
+
+float ToGreyScale(in vec4 color){
+	return color.x*0.3+color.y*0.3+color.z*0.3;
+}
+
+void main(){
+
+	vec3 H=normalize(v+R);
+
+	vec4 ambientcolor,diffusecolor,specualrcolor;
+
+	vec4 Kd = texture2D(TextureUnit0, gl_TexCoord[0].xy);
+
+	vec3 Isotropic =vec3(texture2D(TextureUnit4,gl_TexCoord[0].xy));
+
+	vec4 Ks =vec4(1.0,1.0,1.0,1.0)-Kd;
+
+	ambientcolor=Ka*Light[0].FrontLightProduct.ambient;
+
+	float NdotL=dot(N,L);
+
+	float VdotR=dot(v,R);
+
+	float HdotA=dot(H,Isotropic.rgb);
+	
+	diffusecolor=Light[0].FrontLightProduct.diffuse*Kd*NdotL;
+
+	int shine=int(ToGreyScale(texture(TextureUnit2,gl_TexCoord[0].xy)));
+
+	specularcolor=Light[0].FrontLightProduct.specular*Ks*max(pow(VdotR,shine),0.0);
+
+	gl_FragColor=ambientcolor+diffusecolor+specularcolor;
+}

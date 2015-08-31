@@ -1,0 +1,260 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\ultility">
+      <UniqueIdentifier>{0f23c0fb-fcae-4cab-9806-2ee87be5fe51}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\ultility">
+      <UniqueIdentifier>{6a026933-735b-4d96-a71f-9a86a3268275}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\lights">
+      <UniqueIdentifier>{49b462a2-2779-4db9-818f-18f13300abf9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\lights">
+      <UniqueIdentifier>{cf302e5a-3b8e-4f83-a0f4-8ad027a7dd8f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\shaders">
+      <UniqueIdentifier>{791b1b54-1c28-40a5-9843-606e93f1db33}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Model">
+      <UniqueIdentifier>{9a7a228a-7350-455a-a767-4997f26c40b7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Model">
+      <UniqueIdentifier>{c520ea99-e2c3-4c70-8cf9-b4acd3e9c5ef}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Texture Map">
+      <UniqueIdentifier>{58a72f30-4a1b-4e8f-b721-963d88363ffe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\shaders\1.20">
+      <UniqueIdentifier>{46575ff4-d7f3-43e9-b01f-374d76d9ff60}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\shaders\3.30">
+      <UniqueIdentifier>{87f016ff-ce7c-4235-998c-28bf62bd5beb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Material">
+      <UniqueIdentifier>{d908cc0a-97b5-435f-bd86-1e8b8f9d0f52}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Material">
+      <UniqueIdentifier>{59921b1a-899b-4745-94fc-864666769f7b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\shaders\1.20\Phong">
+      <UniqueIdentifier>{694cddec-4154-4ecb-84af-a46d3d5147ff}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\loading Image">
+      <UniqueIdentifier>{6dcbbdae-7c29-4a5c-81f4-05dc75f2f7e5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\shaders\1.20\Mapped Phong">
+      <UniqueIdentifier>{bb511c83-3f02-4c20-99f4-ebe1e7a9a3c6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\shaders\1.20\sinlge color">
+      <UniqueIdentifier>{6f4e5e75-e595-4224-97a7-76ed2f124d60}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\shaders\1.50">
+      <UniqueIdentifier>{6f9b3df8-4497-4852-ad61-66c9ccb6d102}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\shaders\1.50\Bump_Map">
+      <UniqueIdentifier>{51c30ecd-983f-4572-a5cf-f60311be1f7f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\shaders\1.20\Anisotropy">
+      <UniqueIdentifier>{d67b9cdb-035c-42ba-8e80-071a3fdda981}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\shaders\1.20\NormalMapping">
+      <UniqueIdentifier>{2b7fc7a9-98da-424b-a7b2-2ee550e74409}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\shaders\1.20\Ward">
+      <UniqueIdentifier>{9cdfeeb9-4e97-4aa3-875c-4f3eb6589303}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\shaders\NewFilter1">
+      <UniqueIdentifier>{3d857c0e-7a38-4148-9c7c-25dac6f02f57}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\shaders\1.20\Matcap">
+      <UniqueIdentifier>{924a402e-2279-43fd-a2bd-876663b77754}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Mat4.h">
+      <Filter>Header Files\ultility</Filter>
+    </ClInclude>
+    <ClInclude Include="Light.h">
+      <Filter>Header Files\lights</Filter>
+    </ClInclude>
+    <ClInclude Include="Point_Light.h">
+      <Filter>Header Files\lights</Filter>
+    </ClInclude>
+    <ClInclude Include="Vec3.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="fbx_loader.h">
+      <Filter>Header Files\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="Model.h">
+      <Filter>Header Files\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="PolyModel.h">
+      <Filter>Header Files\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="Texture_Map.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Vec2.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Material.h">
+      <Filter>Header Files\Material</Filter>
+    </ClInclude>
+    <ClInclude Include="Phong_Material.h">
+      <Filter>Header Files\Material</Filter>
+    </ClInclude>
+    <ClInclude Include="TgaTexture.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="box.h">
+      <Filter>Header Files\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="Transformation.h">
+      <Filter>Header Files\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="Node.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Assignment4.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Camera.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Transformation.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Mat4.cpp">
+      <Filter>Source Files\ultility</Filter>
+    </ClCompile>
+    <ClCompile Include="Light.cpp">
+      <Filter>Source Files\lights</Filter>
+    </ClCompile>
+    <ClCompile Include="Point_Light.cpp">
+      <Filter>Source Files\lights</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="fbx_loader.cpp">
+      <Filter>Source Files\Model</Filter>
+    </ClCompile>
+    <ClCompile Include="Model.cpp">
+      <Filter>Source Files\Model</Filter>
+    </ClCompile>
+    <ClCompile Include="PolyModel.cpp">
+      <Filter>Source Files\Model</Filter>
+    </ClCompile>
+    <ClCompile Include="Texture_Map.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Vec2.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Material.cpp">
+      <Filter>Source Files\Material</Filter>
+    </ClCompile>
+    <ClCompile Include="Phong_Material.cpp">
+      <Filter>Source Files\Material</Filter>
+    </ClCompile>
+    <ClCompile Include="TgaTexture.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="box.cpp">
+      <Filter>Source Files\Model</Filter>
+    </ClCompile>
+    <ClCompile Include="Node.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ClassDiagram.cd">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="Text.VertexShader">
+      <Filter>Resource Files\shaders\1.20\sinlge color</Filter>
+    </None>
+    <None Include="Text.FragmentShader">
+      <Filter>Resource Files\shaders\1.20\sinlge color</Filter>
+    </None>
+    <None Include="fragshader.glsl">
+      <Filter>Resource Files\shaders\1.20\Phong</Filter>
+    </None>
+    <None Include="vertexshader1.glsl">
+      <Filter>Resource Files\shaders\1.20\Phong</Filter>
+    </None>
+    <None Include="fp0.frag">
+      <Filter>Resource Files\shaders\1.20\Mapped Phong</Filter>
+    </None>
+    <None Include="vp0.vert">
+      <Filter>Resource Files\shaders\1.20\Mapped Phong</Filter>
+    </None>
+    <None Include="NormalMap.vertShader">
+      <Filter>Resource Files\shaders\1.50\Bump_Map</Filter>
+    </None>
+    <None Include="NormalMap.fragShader">
+      <Filter>Resource Files\shaders\1.50\Bump_Map</Filter>
+    </None>
+    <None Include="Anisptrophy.vertexShader">
+      <Filter>Resource Files\shaders\1.20\Anisotropy</Filter>
+    </None>
+    <None Include="Anisotrophy.FragmentShader">
+      <Filter>Resource Files\shaders\1.20\Anisotropy</Filter>
+    </None>
+    <None Include="NormalMap.vertexShader">
+      <Filter>Resource Files\shaders\1.20\NormalMapping</Filter>
+    </None>
+    <None Include="NormalMap.FragmentShader">
+      <Filter>Resource Files\shaders\1.20\NormalMapping</Filter>
+    </None>
+    <None Include="Ward.verShader">
+      <Filter>Resource Files\shaders\1.20\Ward</Filter>
+    </None>
+    <None Include="Ward.fragShader">
+      <Filter>Resource Files\shaders\1.20\Ward</Filter>
+    </None>
+    <None Include="Matcap.verts">
+      <Filter>Resource Files\shaders\1.20\Matcap</Filter>
+    </None>
+    <None Include="Matcap.Frags">
+      <Filter>Resource Files\shaders\1.20\Matcap</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Image.tga" />
+  </ItemGroup>
+</Project>

@@ -1,0 +1,10 @@
+#verision 120
+
+attribute vec3 binormal;
+
+attribute vec3 tangent;
+
+
+void main(){
+	gl_Position=gl_ModelViewProjectionMatrix*gl_Vertex;
+}
